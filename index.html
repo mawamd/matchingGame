@@ -1,0 +1,44 @@
+<div class="container">
+    <h1>Match the Term on Left with Definition on Right</h1>
+  // created with help by ChatGPT
+    
+    <!-- Example Terms and Definitions -->
+    <div class="game">
+        <div class="terms" id="termsContainer">
+            <div class="term" data-match="type1" draggable="true">Type 1 AIT</div>
+            <div class="term" data-match="type2" draggable="true">Type 2 AIT</div>
+            <div class="term" data-match="mixed" draggable="true">Mixed Type 1 & 2 AIT</div>
+        </div>
+        <div class="definitions" id="definitionsContainer">
+            <div class="definition" data-value="type1">Caused by excess iodine substrate.</div>
+            <div class="definition" data-value="type1">Leads to overproduction of thyroid hormone (Jod-Basedow effect).</div>
+            <div class="definition" data-value="type1">Seen in persons with underlying Graves disease or multinodular goiter.</div>
+            <div class="definition" data-value="type1">Common in areas with endemic low iodine levels.</div>
+            <div class="definition" data-value="type1">Thyrotropin-receptor antibodies may be positive.</div>
+            <div class="definition" data-value="type1">Ultrasonography may show increased vascularity or multiple nodules.</div>
+            <div class="definition" data-value="type1">Treatment includes blocking thyroid hormone production with methimazole.</div>
+            <div class="definition" data-value="type2">Results from the cytotoxic effects of amiodarone.</div>
+            <div class="definition" data-value="type2">Causes destructive thyroiditis.</div>
+            <div class="definition" data-value="type2">No history of autoimmune thyroid disease.</div>
+            <div class="definition" data-value="type2">Ultrasonography may show decreased vascularity.</div>
+            <div class="definition" data-value="type2">Often self-limited and brief.</div>
+            <div class="definition" data-value="type2">Minimal symptoms may require only observation.</div>
+            <div class="definition" data-value="type2">Significant symptoms respond to prednisone.</div>
+            <div class="definition" data-value="type2">Prednisone should be slowly tapered over months.</div>
+            <div class="definition" data-value="mixed">Features of both Type 1 and Type 2 are present.</div>
+            <div class="definition" data-value="mixed">Initial treatment can include steroids or steroids plus methimazole.</div>
+            <div class="definition" data-value="mixed">Requires close monitoring.</div>
+            <div class="definition" data-value="mixed">Rapid improvement in thyroid labs suggests Type 2 AIT.</div>
+            <div class="definition" data-value="mixed">Lack of rapid response suggests Type 1 or mixed AIT.</div>
+            <div class="definition" data-value="mixed">Continued or additional methimazole may be necessary if response is slow.</div>
+        </div>
+    </div>
+
+    <!-- Upload CSV and Scramble Buttons -->
+    <div class="controls">
+        <button id="scrambleButton">Scramble Definitions</button>
+        <input type="file" id="uploadCSV" accept=".csv">
+    </div>
+
+    <div id="feedback"></div>
+</div>
